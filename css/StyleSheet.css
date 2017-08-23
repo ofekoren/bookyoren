@@ -1,0 +1,26 @@
+﻿body {
+  background-image: url("../images/soon.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 645px;
+  min-width: 1280px;
+  overflow: hidden; }
+  body .email {
+    cursor: pointer;
+    margin: 534px auto 0;
+    width: 700px;
+    height: 113px; }
+    @media (max-width: 640px) {
+      body .email {
+        margin: 589px auto 0;
+        width: 95%;
+        height: 185px; } }
+
+@media (max-width: 640px) {
+  body {
+    background-image: url("../images/mobile.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 1136px;
+    min-width: 640px; } }
+
